@@ -2,7 +2,6 @@ import Project1 from '../assets/projects/ulcollex.png'
 import Project2 from '../assets/projects/ACLC.png'
 
 
-
 export const projects = [
     {
         id: 0,
