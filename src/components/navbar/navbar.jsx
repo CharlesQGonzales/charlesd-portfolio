@@ -45,12 +45,16 @@ export default function Navbar() {
       >
         <div className="container px-4 lg:px-20 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
+          <div data-aos="fade-down"
+               data-aos-anchor-placement="top-bottom"
+               data-aos-duration="1000">
+            <a 
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-slate-700 fontPrimary"
               href="#home"
             >
               @charlesgonzales
             </a>
+            </div>
             <input
               className="hidden"
               type="checkbox"
@@ -80,6 +84,9 @@ export default function Navbar() {
                 <div key={nav_links.id}>
                   <ul className="flex lg:py-3 w-full lg:w-auto lg:ml-auto lg:pt-5 fontSecondary lg:fontPrimary">
                     <li className="nav-item">
+                    <div data-aos="fade-down"
+                         data-aos-anchor-placement="top-bottom"
+                         data-aos-duration={nav_links.duration}>
                       <a
                         className="px-3 flex justify-center text-slate-700 font-bold leading-snug hover:opacity-75"
                         href={nav_links.link}
@@ -90,6 +97,7 @@ export default function Navbar() {
                           {nav_links.name}
                         </span>
                       </a>
+                      </div>
                     </li>
                   </ul>
                 </div>
