@@ -2,8 +2,8 @@ import React from 'react'
 import Button from '../../components/button/button';
 import Avatar1 from '../../assets/avatar/avatarFirst.png';
 import Gmail from '../../components/iconbutton/gmailButton';
-import Linkedin from '../../components/iconbutton/linkedinmButton';
-import Github from '.../../components/iconbutton/githubButton';
+import Linkedin from '../../components/iconbutton/linkedinButton';
+import Github from '../../components/iconbutton/githubButton';
 import Instagram from '../../components/iconbutton/instagramButton';
 
 function Home() {
@@ -27,7 +27,9 @@ function Home() {
             <span className='font-extrabold text-slate-700'>develop</span> things for the web.
           </p>
           <div className='flex absolute gap-2 lg:flex-row lg:gap-16'>
+            <a className='social-link' href='#projects'>
             <Button>projects</Button>
+            </a>
                <div className='flex gap-[6px]'>
                <a className='social-link' href='https://mail.google.com/mail/u/0/?to=charlesgonzales406@gmail.com&fs=1&tf=cm' target='_blank'>
               <Gmail />
