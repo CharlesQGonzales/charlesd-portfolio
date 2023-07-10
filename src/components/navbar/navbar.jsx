@@ -62,6 +62,9 @@ export default function Navbar() {
               checked={navbarOpen}
               onChange={() => setNavbarOpen(!navbarOpen)}
             />
+            <div data-aos="fade-down"
+               data-aos-anchor-placement="top-bottom"
+               data-aos-duration="1200">
             <label
               htmlFor="checkbox"
               className="toggle lg:hidden relative w-10 h-10 cursor-pointer flex flex-col items-center justify-center gap-1 duration-[.5s]"
@@ -70,6 +73,7 @@ export default function Navbar() {
               <div className="bars w-full h-1 bg-slate-800 rounded duration-[.8s]" id="bar2"></div>
               <div className="bars h-1 bg-slate-800 rounded w-[70%]" id="bar3"></div>
             </label>
+            </div>
           </div>
           <div
             className={
