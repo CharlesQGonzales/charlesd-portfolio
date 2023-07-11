@@ -14,7 +14,7 @@ function about() {
                 <div data-aos="slide-up"
                      data-aos-once="true"
                      data-aos-delay="50"
-                     data-aos-duration="1000">
+                     data-aos-duration="1200">
              <div className="lg:w-[100%] w-[325px] h-[565px] lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
                 <div>
                 <img src={ Myimage } alt='charlesGonzalesimage' className='absolute lg:z-10 lg:w-[300px] w-[140px] rounded-full border-1 cardShadow border-[#e8e8e8] lg:left-20 left-28 lg:translate-y-[-30%] translate-y-[-30%]'/>
@@ -55,7 +55,8 @@ function about() {
              <div className='lg:w-64 w-40 lg:h-[210px] h-32 rounded-xl lg:mt-5 lg:rounded-3xl bg-[#e8e8e8] cardShadow' 
                      data-aos="slide-up"
                      data-aos-once="true"
-                     data-aos-duration={page_certificates.duration}>
+                     data-aos-delay="50"
+                     data-aos-duration={ page_certificates.duration }>
              <img src={page_certificates.image} alt='kodeGo-runnerp-up-image' className='border-2 opacity-70  hover:scale-[1.1] hover:opacity-100 transition-all ease-out duration-[0.3s] hover:skew lg:rounded-3xl border-[#e8e8e8] rounded-xl h-full' />  
                 </div>
              </div>

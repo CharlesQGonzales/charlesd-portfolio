@@ -9,7 +9,7 @@ export const certificates = [
     {
       id: 0,
       image: Runnerup,
-      duration: "1000",
+      duration: "1200",
       page: true,
     },
     {
@@ -21,13 +21,13 @@ export const certificates = [
     {
       id: 2,
       image: SololearnHtml,
-      duration: "1800",
+      duration: "1400",
       page: true,
     },
     {
       id: 3,
       image: SololearnJs,
-      duration: "2300",
+      duration: "1600",
       page: true,
     },
   ]
