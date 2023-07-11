@@ -15,7 +15,7 @@ function about() {
                      data-aos-once="true"
                      data-aos-delay="50"
                      data-aos-duration="1200">
-             <div className="lg:w-[100%] w-[325px] h-[565px] lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
+             <div className="lg:w-[100%] w-[330px] h-[565px] lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
                 <div>
                 <img src={ Myimage } alt='charlesGonzalesimage' className='absolute lg:z-10 lg:w-[300px] w-[140px] rounded-full border-1 cardShadow border-[#e8e8e8] lg:left-20 left-28 lg:translate-y-[-30%] translate-y-[-30%]'/>
                 </div>

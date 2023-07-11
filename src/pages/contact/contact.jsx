@@ -10,7 +10,7 @@ function contact() {
                     <img src={ Avatar } alt="Avatar image" className='filter-drop-shadow lg:visible invisible'/>
                 </div>
                 <div id="contact" className='flex items-end pt-10'>
-                <form className='flex flex-col gap-5 items-center justify-center lg:h-[445px] h-96 lg:w-[460px] w-80 rounded-xl lg:rounded-[50px] bg-[#e8e8e8] cardShadow'>
+                <form className='flex flex-col gap-5 items-center justify-center lg:h-[445px] h-96 lg:w-[460px] w-[330px] rounded-xl lg:rounded-[50px] bg-[#e8e8e8] cardShadow'>
                     <h1 className='lg:text-4xl text-2xl font-black fontSecondary textShadow tracking-tight'>Let's Work Together</h1>
                 <div className="form-group">
                 <label className="form-label lg:text-base text-sm fontPrimary font-semibold" htmlFor="email">Your Email</label>

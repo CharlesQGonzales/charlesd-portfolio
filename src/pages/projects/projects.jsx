@@ -25,10 +25,11 @@ function Card() {
                 <div key={card_projects.id}>
                     <div data-aos="slide-up"
                          data-aos-once="true"
-                         data-aos-duration="1000">
-                <div className="card lg:w-[85%] w-[325px] h-96 lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
+                         data-aos-delay="50"
+                         data-aos-duration="1200">
+                <div className="card lg:w-[85%] w-[330px] h-96 lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
                 <div>
-                <img src={card_projects.image} alt='ulcollexWebsite' className='absolute lg:z-10 lg:w-[58%] w-[325px] rounded-md lg:rounded-[30px] border-1 cardShadow border-[#e8e8e8] lg:-left-20 lg:-translate-y-[-8%]'/>
+                <img src={card_projects.image} alt='ulcollexWebsite' className='absolute lg:z-10 lg:w-[58%] w-[330px] rounded-md lg:rounded-[30px] border-1 cardShadow border-[#e8e8e8] lg:-left-20 lg:-translate-y-[-8%]'/>
 
                 </div>
                 <div className='flex flex-col mx-3 lg:mx-0 lg:w-[430px] lg:mt-0 mt-44'>
