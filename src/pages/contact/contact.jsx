@@ -13,12 +13,12 @@ function contact() {
                 <form className='flex flex-col gap-5 items-center justify-center lg:h-[445px] h-96 lg:w-[460px] w-80 rounded-xl lg:rounded-[50px] bg-[#e8e8e8] cardShadow'>
                     <h1 className='lg:text-4xl text-2xl font-black fontSecondary textShadow tracking-tight'>Let's Work Together</h1>
                 <div className="form-group">
-                <label className="form-label lg:text-base text-sm fontPrimary font-semibold" for="email">Your Email</label>
+                <label className="form-label lg:text-base text-sm fontPrimary font-semibold" htmlFor="email">Your Email</label>
                 <br></br>
                 <input required="" placeholder="" className="form-input lg:w-[400px] w-72 lg:h-10 inputShadow rounded-lg p-2 bg-[#e8e8e8] focus:outline-none" name="email" id="email" type="email" />
                 </div>
                 <div className="form-group">
-                <label className="form-label lg:text-base text-sm fontPrimary font-semibold" for="message">Message</label>
+                <label className="form-label lg:text-base text-sm fontPrimary font-semibold" htmlFor="message">Message</label>
                 <br></br>
                 <textarea required="" placeholder="" className="form-input lg:w-[400px] w-72 lg:h-40 h-32 inputShadow rounded-lg p-2 bg-[#e8e8e8] focus:outline-none" name="message" id="message"></textarea>
                  </div>

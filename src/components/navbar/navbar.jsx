@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="fixed flex flex-wrap justify-between py-3 bg-teal-50 mb-3 pt-5 lg:opacity-95 border-b w-full z-20"
+        className="fixed flex flex-wrap justify-between py-2 bg-teal-50 mb-3 lg:opacity-95 border-b w-full z-20"
         style={navbarStyle}
       >
         <div className="container px-4 lg:px-20 mx-auto flex flex-wrap items-center justify-between">
@@ -63,8 +63,8 @@ export default function Navbar() {
               onChange={() => setNavbarOpen(!navbarOpen)}
             />
             <div data-aos="fade-down"
-               data-aos-anchor-placement="top-bottom"
-               data-aos-duration="1200">
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-duration="1200">
             <label
               htmlFor="checkbox"
               className="toggle lg:hidden relative w-10 h-10 cursor-pointer flex flex-col items-center justify-center gap-1 duration-[.5s]"
