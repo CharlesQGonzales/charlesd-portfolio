@@ -7,7 +7,7 @@ import { BiLogoCss3 } from 'react-icons/bi'
 import { BiLogoJavascript } from 'react-icons/bi'
 import { FaBootstrap } from 'react-icons/fa'
 import { SiVitest } from 'react-icons/si'
-import { SiMysql } from 'react-icons/si'
+import { SiPhp } from 'react-icons/si'
 import { IconContext } from 'react-icons';
 
 
@@ -131,7 +131,7 @@ function skills () {
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center"> 
     <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-cyan-600 before:hover:bg-cyan-600 after:hover:bg-cyan-600 color-te">
     <IconContext.Provider value={{ size: '32px'}}>
-     <SiMysql />
+     <SiPhp />
        </IconContext.Provider>
     </a>
   </li>
