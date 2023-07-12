@@ -56,6 +56,9 @@ export default function Navbar() {
               @charlesgonzales
             </a>
             </div>
+            <div data-aos="fade-down"
+               data-aos-anchor-placement="top-bottom"
+               data-aos-duration="1400">
             <input
               className="hidden"
               type="checkbox"
@@ -63,10 +66,6 @@ export default function Navbar() {
               checked={navbarOpen}
               onChange={() => setNavbarOpen(!navbarOpen)}
             />
-             <div data-aos="fade-down"
-                  data-aos-anchor-placement="top-bottom"
-                  data-aos-duration="1200">
-              
             <label
               htmlFor="checkbox"
               className="toggle lg:hidden relative w-10 h-10 cursor-pointer flex flex-col items-center justify-center gap-1 duration-[.5s]"
@@ -75,12 +74,11 @@ export default function Navbar() {
               <div className="bars w-full h-1 bg-slate-700 rounded duration-[.8s]" id="bar2"></div>
               <div className="bars h-1 bg-slate-700 rounded w-[70%]" id="bar3"></div>
             </label>
-           
             </div>
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center lg:justify-end lg:flex-row flex-col mt-36 lg:mt-0 gap-y-5 lg:gap-0" +
+              "lg:flex flex-grow items-center lg:justify-end lg:flex-row flex-col mt-36 lg:mt-0 gap-y-7 lg:gap-0" +
               (navbarOpen ? " flex h-[100vh]" : " hidden")
             }
             id="example-navbar-danger"
@@ -95,12 +93,11 @@ export default function Navbar() {
                          data-aos-anchor-placement="top-bottom"
                          data-aos-duration={nav_links.duration}>
                       <a
-                        className="px-3 flex justify-center text-slate-700 font-bold leading-snug hover:opacity-75"
+                        className="px-3 flex justify-center text-slate-700 font-bold hover:opacity-75"
                         href={nav_links.link}
                         onClick={closeNavbar}
                       >
-                        <i className=" leading-lg opacity-75"></i>
-                        <span className="ml-2 text-2xl lg:text-sm lg:font-bold font-extrabold">
+                        <span className="ml-2 text-3xl lg:text-sm lg:font-bold font-extrabold">
                           {nav_links.name}
                         </span>
                       </a>
