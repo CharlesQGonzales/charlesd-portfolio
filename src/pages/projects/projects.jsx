@@ -14,8 +14,8 @@ function Card() {
              data-aos="slide-up"
              data-aos-once="true"
              data-aos-duration="1000">
-        <p className='lg:text-4xl text-2xl font-black fontSecondary lg:text-start text-center lg:mb-5 textShadow '>featured projects</p>
-        <p className='lg:text-xl  text-lg font-semibold fontPrimary lg:text-start text-center text-slate-700'>_selected projects</p>
+        <p className='lg:text-4xl text-2xl font-black fontSecondary lg:text-start text-center lg:mb-5 textShadow dark:text-slate-50 dark:textShadow-none'>featured projects</p>
+        <p className='lg:text-xl  text-lg font-semibold fontPrimary lg:text-start text-center text-slate-700 dark:text-slate-500'>_selected projects</p>
         </div>
         <div>
         <div className='flex flex-col lg:gap-10 gap-5'>
@@ -27,14 +27,14 @@ function Card() {
                          data-aos-once="true"
                          data-aos-delay="50"
                          data-aos-duration="1200">
-                <div className="card lg:w-[85%] w-[330px] h-96 lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
+                <div className="card lg:w-[85%] w-[330px] h-96 lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col dark:cardShadow-none dark:bg-neutral-800 dark:border-[#e8e8e8] dark:border">
                 <div>
-                <img src={card_projects.image} alt='ulcollexWebsite' className='absolute lg:z-10 lg:w-[58%] w-[330px] rounded-md lg:rounded-[30px] border-1 cardShadow border-[#e8e8e8] lg:-left-20 lg:-translate-y-[-8%]'/>
+                <img src={card_projects.image} alt='ulcollexWebsite' className='absolute lg:z-10 lg:w-[58%] w-[330px] rounded-xl lg:rounded-[30px] cardShadow border border-[#e8e8e8] lg:-left-20 lg:-translate-y-[-8%] dark:cardShadow-none'/>
 
                 </div>
                 <div className='flex flex-col mx-3 lg:mx-0 lg:w-[430px] lg:mt-0 mt-44'>
-                    <h1 className='lg:text-3xl lg:font-black lg:my-14 text-center fontSecondary block textShadow'>{card_projects.title}</h1>
-                    <p className='lg:text-base font-semibold lg:mb-5 text-sm fontPrimary text-slate-500 break-words lg:w-[395px] tracking-normal wordspaceSecondary'>{card_projects.subText}</p>
+                    <h1 className='lg:text-3xl lg:font-black lg:my-14 text-center fontSecondary block textShadow dark:text-slate-50 dark:textShadow-none'>{card_projects.title}</h1>
+                    <p className='lg:text-base font-semibold lg:mb-5 text-sm fontPrimary text-slate-500 break-words lg:w-[395px] tracking-normal wordspaceSecondary dark:text-slate-300'>{card_projects.subText}</p>
                     <div className='flex flex-row lg:gap-3 gap-1 lg:mb-10 my-4'>
                     <span><Tech>{card_projects.tech}</Tech></span>
                     <span><Tech>{card_projects.techSecond}</Tech></span>

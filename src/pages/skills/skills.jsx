@@ -21,8 +21,8 @@ function skills () {
                      data-aos-once="true"
                      data-aos-delay="50"
                      data-aos-duration="1200">
-        <p className='lg:text-5xl text-2xl font-black fontSecondary lg:text-start text-center lg:mb-5 textShadow '>tech stack</p>
-        <p className='lg:text-xl  text-lg font-semibold fontPrimary lg:text-start text-center text-slate-700'>_selected tech</p>
+        <p className='lg:text-5xl text-2xl font-black fontSecondary lg:text-start text-center lg:mb-5 textShadow dark:textShadow-none dark:text-slate-50'>tech stack</p>
+        <p className='lg:text-xl  text-lg font-semibold fontPrimary lg:text-start text-center text-slate-700 dark:text-slate-500'>_selected tech</p>
         </div>
         <div>
        <ul className="skill grid grid-cols-4 lg:flex justify-center lg:mr-7 mr-2 items-start lg:h-full h-2/4">
@@ -31,7 +31,7 @@ function skills () {
                      data-aos-delay="50"
                      data-aos-duration="1200">
     <li className="skill-item mx-8 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-red-400 before:hover:bg-red-400 after:hover:bg-red-400 color-fi">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-red-400 before:hover:bg-red-400 after:hover:bg-red-400 color-fi dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
     <FaHtml5  />
     </IconContext.Provider>
@@ -43,7 +43,7 @@ function skills () {
                      data-aos-delay="100"
                      data-aos-duration="1200">
   <li className="skill-item mx-8 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-blue-400 before:hover:bg-blue-400 after:hover:bg-blue-400 color-se">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-blue-400 before:hover:bg-blue-400 after:hover:bg-blue-400 color-se dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
       <BiLogoCss3  />
       </IconContext.Provider>
@@ -55,7 +55,7 @@ function skills () {
                      data-aos-delay="150"
                      data-aos-duration="1200">
   <li className="skill-item mx-8 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-yellow-400 before:hover:bg-yellow-400 after:hover:bg-yellow-400 color-th">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-yellow-400 before:hover:bg-yellow-400 after:hover:bg-yellow-400 color-th dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
       <BiLogoJavascript   />
       </IconContext.Provider>
@@ -67,7 +67,7 @@ function skills () {
                      data-aos-delay="200"
                      data-aos-duration="1200">
   <li className="skill-item mx-8 lg:w-11 w-10 h-11 flex justify-center items-center"> 
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-pink-400 before:hover:bg-pink-400 after:hover:bg-pink-400 color-fo">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-pink-400 before:hover:bg-pink-400 after:hover:bg-pink-400 color-fo dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
      <IoLogoSass />
        </IconContext.Provider>
@@ -81,7 +81,7 @@ function skills () {
                      data-aos-delay="250"
                      data-aos-duration="1200">
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-violet-400 before:hover:bg-violet-400 after:hover:bg-violet-400 color-si">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-violet-400 before:hover:bg-violet-400 after:hover:bg-violet-400 color-si dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
     <FaBootstrap  />
     </IconContext.Provider>
@@ -93,7 +93,7 @@ function skills () {
                      data-aos-delay="300"
                      data-aos-duration="1200">
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-cyan-400 before:hover:bg-cyan-400 after:hover:bg-cyan-400 color-se">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-cyan-400 before:hover:bg-cyan-400 after:hover:bg-cyan-400 color-se dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
       <FaReact  />
       </IconContext.Provider>
@@ -105,7 +105,7 @@ function skills () {
                      data-aos-delay="350"
                      data-aos-duration="1200">
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center">
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-purple-400 before:hover:bg-purple-400 after:hover:bg-purple-400 color-ei">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-purple-400 before:hover:bg-purple-400 after:hover:bg-purple-400 color-ei dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
       <SiVitest    />
       </IconContext.Provider>
@@ -117,7 +117,7 @@ function skills () {
                      data-aos-delay="400"
                      data-aos-duration="1200">
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center"> 
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-sky-400 before:hover:bg-sky-400 after:hover:bg-sky-400 color-ni"> 
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-sky-400 before:hover:bg-sky-400 after:hover:bg-sky-400 color-ni dark:bg-neutral-600 dark:before:bg-neutral-700 dark:after:bg-neutral-800"> 
     <IconContext.Provider value={{ size: '32px'}}>
      <SiTailwindcss />
        </IconContext.Provider>
@@ -129,7 +129,7 @@ function skills () {
                      data-aos-delay="450"
                      data-aos-duration="1200">
   <li className="skill-item-secondary lg:mx-8 mx-5 lg:w-11 w-10 h-11 flex justify-center items-center"> 
-    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-cyan-600 before:hover:bg-cyan-600 after:hover:bg-cyan-600 color-te">
+    <a className="skill-icon hover:color-hover relative w-full h-full flex justify-center items-center bg-[#e8e8e8] text-center transform-skew before:content-space before:absolute before:top-[7px] before:-left-3 before:h-full before:w-3 before:bg-[#b1b1b1] before:before-transform-skew after:content-space after:absolute after:top-11 after:-left-[7px] after:h-3 after:w-full after:bg-[#b1b1b1] after:after-transform-skew hover:skill-icon-hover hover:bg-cyan-600 before:hover:bg-cyan-600 after:hover:bg-cyan-600 color-te dark:bg-neutral-700 dark:before:bg-neutral-800 dark:after:bg-neutral-800">
     <IconContext.Provider value={{ size: '32px'}}>
      <SiPhp />
        </IconContext.Provider>

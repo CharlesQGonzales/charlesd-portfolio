@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import Navbar from './components/navbar/navbar';
 import Home from './pages/home/home'
 import Project from './pages/projects/projects'
@@ -11,7 +10,7 @@ import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <div id="home">
+    <div id="home" className='dark:bg-neutral-900'>
       <Navbar /> 
       <Home />
       <Project />

@@ -16,29 +16,29 @@ function Home() {
           <img
             src={Avatar1}
             alt='Avatar'
-            className='filter-drop-shadow invisible lg:visible h-44 lg:h-[680px]'/>
+            className='filter-drop-shadow invisible lg:visible h-44 lg:h-[680px] dark:filter-none'/>
         </div>
         <div className='lg:mt-72 px-6'>
           <div  data-aos="fade-up"
                 data-aos-delay="700"
                 data-aos-duration="1300">
-          <p className='lg:text-2xl text-lg font-bold tracking-widest fontPrimary'>
+          <p className='lg:text-2xl text-lg font-bold tracking-widest fontPrimary dark:text-slate-50'>
             Hello, I'm Charles Gonzales.
           </p>
           </div>
           <div  data-aos="fade-up"  
                 data-aos-delay="750"
                 data-aos-duration="1500">
-          <p className='lg:text-5xl text-4xl my-6 lg:font-semibold font-extrabold textShadow lg:wordspaceNone wordspacePrimary fontSecondary'>
-            a <span className='font-extrabold text-slate-700'>front-end developer,</span>
+          <p className='lg:text-5xl text-4xl my-6 lg:font-semibold font-extrabold textShadow lg:wordspaceNone wordspacePrimary fontSecondary dark:text-slate-50 dark:textShadow-none'>
+            a <span className='font-extrabold text-slate-700 dark:text-slate-500'>front-end developer,</span>
           </p>
           </div>
           <div data-aos="fade-up"  
                data-aos-delay="800"
                data-aos-duration="1700">
-          <p className='lg:text-3xl text-4xl mb-16 lg:font-semibold font-extrabold textShadow lg:wordspaceNone wordspacePrimary fontSecondary'>
-            I <span className='font-extrabold text-slate-700'>design</span> and{' '}
-            <span className='font-extrabold text-slate-700'>develop</span> things for the web.
+          <p className='lg:text-3xl text-4xl mb-16 lg:font-semibold font-extrabold textShadow lg:wordspaceNone wordspacePrimary fontSecondary dark:text-slate-50 dark:textShadow-none'>
+            I <span className='font-extrabold text-slate-700 dark:text-slate-500'>design</span> and{' '}
+            <span className='font-extrabold text-slate-700 dark:text-slate-500'>develop</span> things for the web.
           </p>
           </div>
           <div className='flex absolute gap-2 lg:flex-row lg:gap-16' 

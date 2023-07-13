@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { navlinks } from '../../data/navlinks'
+import { RiMoonClearLine } from 'react-icons/ri';
+import { RiSunLine } from 'react-icons/ri'
+import { IconContext } from "react-icons";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -36,12 +39,34 @@ export default function Navbar() {
     transition: "transform 0.3s ease-in-out",
     borderBottom: reachedPosition ? "1px solid Gainsboro" : "none",
   };
-  
+
+  const [theme, setTheme] = useState(null);
+
+useEffect (() => {
+  if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    setTheme('dark');
+  }
+  else {
+    setTheme('light');
+  }
+}, [])
+
+useEffect(() => {
+  if(theme === "dark") {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+}, [theme]);
+
+const handleThemeSwitch = () => {
+  setTheme(theme === "dark" ? "light" : "dark")
+};
 
   return (
     <>
       <nav
-        className="fixed flex flex-wrap justify-between py-2 bg-teal-50 mb-3 lg:opacity-95 border-b w-full z-20"
+        className="fixed flex flex-wrap justify-between py-2 bg-teal-50 mb-3 lg:opacity-95 border-b w-full z-20 dark:bg-neutral-900"
         style={navbarStyle}
       >
         <div className="container px-4 lg:px-20 mx-auto flex flex-wrap items-center justify-between">
@@ -50,7 +75,7 @@ export default function Navbar() {
                data-aos-anchor-placement="top-bottom"
                data-aos-duration="1000">
             <a 
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-slate-700 fontPrimary"
+              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap text-slate-700 fontPrimary dark:text-slate-50"
               href="#home"
             >
               @charlesgonzales
@@ -70,9 +95,9 @@ export default function Navbar() {
               htmlFor="checkbox"
               className="toggle lg:hidden relative w-10 h-10 cursor-pointer flex flex-col items-center justify-center gap-1 duration-[.5s]"
             >
-              <div className="bars h-1 bg-slate-700 rounded w-[70%]" id="bar1"></div>
-              <div className="bars w-full h-1 bg-slate-700 rounded duration-[.8s]" id="bar2"></div>
-              <div className="bars h-1 bg-slate-700 rounded w-[70%]" id="bar3"></div>
+              <div className="bars h-1 bg-slate-700 rounded w-[70%] dark:bg-slate-500" id="bar1"></div>
+              <div className="bars w-full h-1 bg-slate-700 rounded duration-[.8s] dark:bg-slate-500" id="bar2"></div>
+              <div className="bars h-1 bg-slate-700 rounded w-[70%] dark:bg-slate-500" id="bar3"></div>
             </label>
             </div>
           </div>
@@ -93,7 +118,7 @@ export default function Navbar() {
                          data-aos-anchor-placement="top-bottom"
                          data-aos-duration={nav_links.duration}>
                       <a
-                        className="px-3 flex justify-center text-slate-700 font-bold hover:opacity-75"
+                        className="px-3 flex justify-center text-slate-700 font-bold hover:opacity-75 dark:text-slate-50"
                         href={nav_links.link}
                         onClick={closeNavbar}
                       >
@@ -106,6 +131,16 @@ export default function Navbar() {
                   </ul>
                 </div>
               ))}
+              <div className="mt-3 lg:ml-5"
+               data-aos="fade-down"
+               data-aos-anchor-placement="top-bottom"
+               data-aos-duration="2050">
+                <button id="toggleDark" onClick={handleThemeSwitch}>
+                {theme === "dark" ?   <IconContext.Provider value={{ color: '#f8fafc', size: '23px' }}><RiSunLine /></IconContext.Provider>
+                :  <IconContext.Provider value={{ color: '#334155', size: '23px' }}><RiMoonClearLine /> </IconContext.Provider>}
+             
+            </button>
+            </div>
           </div>
         </div>
       </nav>

@@ -3,7 +3,7 @@ import Gmail from '../iconbutton/gmailButton'
 import Linkedin from '../iconbutton/linkedinButton'
 import Github from '../iconbutton/githubButton'
 import Instagram from '../iconbutton/instagramButton'
-import { BiLogoReact } from 'react-icons/bi';
+import { FaReact } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 
@@ -27,7 +27,7 @@ function Footer() {
               </a>
             </div>
             <div className='flex justify-center lg:items-center lg:my-0 my-14'>
-                <p className='fontPrimary font-bold text-sm lg:text-base tracking-tight'>Created with<IconContext.Provider value={{ className: 'text-slate-700 mx-1 mb-1 inline', size: '20px' }}><BiLogoReact /></IconContext.Provider>by Charles Quiñones Gonzales</p>
+                <p className='fontPrimary font-bold text-sm lg:text-base tracking-tight dark:text-slate-50'>Created with<IconContext.Provider value={{ className: 'text-slate-700 mx-1 mb-1 inline', color: "#475569", size: '20px' }}><FaReact /></IconContext.Provider>by Charles Quiñones Gonzales</p>
 
             </div>
             </div>

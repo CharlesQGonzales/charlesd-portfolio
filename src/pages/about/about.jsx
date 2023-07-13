@@ -15,9 +15,9 @@ function about() {
                      data-aos-once="true"
                      data-aos-delay="50"
                      data-aos-duration="1200">
-             <div className="lg:w-[100%] w-[330px] h-[565px] lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] cardShadow flex lg:flex-row-reverse flex-col">
+             <div className="lg:w-[100%] w-[330px] h-[565px] lg:h-[460px] mx-6 lg:px-0 rounded-xl mt-5 lg:rounded-[50px] bg-[#e8e8e8] border cardShadow border-[#e8e8e8] flex lg:flex-row-reverse flex-col dark:cardShadow-none dark:bg-neutral-800">
                 <div>
-                <img src={ Myimage } alt='charlesGonzalesimage' className='absolute lg:z-10 lg:w-[300px] w-[140px] rounded-full border-1 cardShadow border-[#e8e8e8] lg:left-20 left-28 lg:translate-y-[-30%] translate-y-[-30%]'/>
+                <img src={ Myimage } alt='charlesGonzalesimage' className='absolute lg:z-10 lg:w-[300px] w-[140px] rounded-full border cardShadow border-[#e8e8e8] lg:left-20 left-28 lg:translate-y-[-30%] translate-y-[-30%] dark:cardShadow-none'/>
                 </div>
                 <div className='flex flex-col items-center mx-3 lg:mx-0 lg:w-[450px] lg:mt-0 mt-32'>
 
@@ -35,8 +35,8 @@ function about() {
               <Instagram />
               </a>
               </div>
-                    <h1 className='lg:text-2xl text-xl lg:font-black my-4 m text-start fontSecondary block textShadow'>about</h1>
-                    <p className='lg:text-base font-semibold mb-7 text-sm fontPrimary text-slate-500 break-words lg:w-[395px] tracking-normal wordspaceSecondary'>I am a full-stack web developer one of the graduates of KodeGo bootcamp with a passion for front-end web development. Through my studies, I have gained experience in wireframing and creating intuitive user interfaces. I am proficient in HTML, CSS, JavaScript, React,
+                    <h1 className='lg:text-2xl text-xl lg:font-black my-4 m text-start fontSecondary block textShadow dark:textShadow-none dark:text-slate-50'>about</h1>
+                    <p className='lg:text-base font-semibold mb-7 text-sm fontPrimary text-slate-500 break-words lg:w-[395px] tracking-normal wordspaceSecondary dark:text-slate-300'>I am a full-stack web developer one of the graduates of KodeGo bootcamp with a passion for front-end web development. Through my studies, I have gained experience in wireframing and creating intuitive user interfaces. I am proficient in HTML, CSS, JavaScript, React,
                     tailwind, vite, and a keen eye for design. In addition, I am skilled in various design tools such as Figma and Adobe Photoshop. I am excited to continue learning and expanding my skills in the field of web development and design.</p>
                 </div>
                 <div className='flex items-end gap-2 lg:mb-10 lg:mr-5 ml-2 lg:ml-0'>
@@ -52,12 +52,12 @@ function about() {
             .map((page_certificates) => (
                 <div key={page_certificates.id}>
              <div className='flex flex-row gap-x-5'> 
-             <div className='lg:w-64 w-40 lg:h-[210px] h-32 rounded-xl lg:mt-5 lg:rounded-3xl bg-[#e8e8e8] cardShadow' 
+             <div className='lg:w-64 w-40 lg:h-[210px] h-32 rounded-xl lg:mt-5 lg:rounded-3xl bg-[#e8e8e8] cardShadow dark:cardShadow-none' 
                      data-aos="slide-up"
                      data-aos-once="true"
                      data-aos-delay="50"
                      data-aos-duration={ page_certificates.duration }>
-             <img src={page_certificates.image} alt='kodeGo-runnerp-up-image' className='border-2 opacity-70  hover:scale-[1.1] hover:opacity-100 transition-all ease-out duration-[0.3s] hover:skew lg:rounded-3xl border-[#e8e8e8] rounded-xl h-full' />  
+             <img src={page_certificates.image} alt='kodeGo-runnerp-up-image' className='border-2 opacity-70  hover:scale-[1.1] hover:opacity-100 transition-all ease-out duration-[0.3s] hover:skew lg:rounded-3xl border-[#e8e8e8] rounded-xl h-full dark:border' />  
                 </div>
              </div>
              </div>

@@ -21,7 +21,6 @@
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
   }
-
   .buttonShadowActive {
     box-shadow: inset 4px 4px 12px #c5c5c5,
              inset -4px -4px 12px #ffffff;
@@ -44,6 +43,10 @@
     text-shadow: 1px 3px 2px #c5c5c5;
   }
 
+  .textShadow-none {
+    text-shadow: none;
+  }
+
   .wordspacePrimary {
     word-spacing: 10px;
   }
@@ -61,6 +64,10 @@
   .cardShadow {
     box-shadow: 6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
+  }
+
+  .cardShadow-none {
+    box-shadow: none;
   }
 
   /* fonts */
