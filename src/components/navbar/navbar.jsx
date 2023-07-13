@@ -131,7 +131,7 @@ const handleThemeSwitch = () => {
                   </ul>
                 </div>
               ))}
-              <div className="mt-3 lg:ml-5"
+              <div className="mt-3 ml-5"
                data-aos="fade-down"
                data-aos-anchor-placement="top-bottom"
                data-aos-duration="2050">
