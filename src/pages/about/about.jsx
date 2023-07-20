@@ -99,7 +99,7 @@ function about() {
                     <img
                       src={page_certificates.image}
                       alt="kodeGo-runnerp-up-image"
-                      className="border-2 opacity-70  hover:opacity-100 lg:rounded-3xl border-[#e8e8e8] rounded-xl h-full dark:border"
+                      className="border-2 opacity-70 hover:opacity-100 duration-200 lg:rounded-3xl border-[#e8e8e8] rounded-xl h-full dark:border"
                     />
                   </div>
                 </div>
